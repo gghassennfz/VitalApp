@@ -1,0 +1,141 @@
+/* EditVerifNettoyage.css */
+.containerT {
+    margin: 10px auto;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid #301934;
+    border-radius: 5px;
+    background-color: #f4f0ec;
+    width: 100%;
+}
+.verif-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .header-cell {
+    background-color: rgb(229, 235, 247);
+    color: #000000;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(30, 31, 32);
+    height: 40px;
+    
+  }
+  
+  .data-cell {
+    border: 1px solid rgb(46, 46, 46);
+    padding: 3px;
+    text-align: center;
+    height: 40px;
+  }
+  
+  .row:nth-child(even) {
+    background-color: #faf9f9;
+  }
+  .lii{
+    color: rgb(18, 118, 16);
+   
+  }
+  .button-link0 {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border: 1px solid rgb(27, 160, 63);
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 10px;
+    width: 180px;
+  }
+  
+  .button-link0:hover {
+    background-color: rgb(166, 189, 159);
+    
+  }
+  .button-link1 {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border: 1px solid rgb(172, 72, 72);
+    border-radius: 4px;
+    background-color:transparent;
+    color: rgb(172, 72, 72);
+    text-decoration: none;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 180px;
+    padding: 10px;
+
+    
+  }
+  
+  .button-link1:hover {
+    background-color: rgb(183, 103, 103);
+    color: #ffffff;
+  }
+  .row:hover {
+    background-color: #c7c4c4a4;
+    cursor: pointer;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.search-container1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+.search-container1 input[type="text"] {
+  padding: 10px;
+  border: 1px solid #061031;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  border: 0.5px solid #bababa;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 5px;
+  
+}
+.barcode-icon {
+  max-height: 30px;
+  width: 28px;
+  height: auto; /* Maintain aspect ratio */
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+}
+
+.search-btn {
+  width: 50px;
+  padding: 2px;
+  background-color: rgba(69, 26, 64, 0.783);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+ 
+  
+}
+
+.search-btn:hover {
+  background-color: #9041aa59;
+}

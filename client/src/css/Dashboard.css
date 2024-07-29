@@ -1,0 +1,90 @@
+
+.dash-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
+}
+
+.dash-up {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.dashboard-box {
+  width: 170px;
+  height: 120px;
+  margin-bottom: 2px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #F1F5F9;
+  box-shadow: 0 2px 7px rgba(23, 20, 20, 0.718);
+  border: 0.5px solid rgb(79, 79, 79);
+  transition: transform 0.2s ease; /* Added transition for smoother effect */
+  cursor: pointer;
+}
+
+.dashboard-box:hover {
+  transform: scale(0.95); /* Zoom out effect on hover */
+}
+
+
+.dashboard-box h2 {
+  margin-top: 20px;
+  font-size: 19px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #565656;
+  font-weight: 500;
+}
+
+.dash-down {
+  width: 98.5%;
+  padding: 20px;
+  
+  max-height: 550px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.sa{
+  
+  width: 100%;
+  max-height: 500px;
+  margin: 10px;
+  max-width: 720px;
+}
+.sb{
+  width: 29%;
+  max-height: 500px;
+  margin: 10px;
+  
+}
+.sc{
+
+  width: 30%;
+  max-height: 500px;
+  margin: 10px;
+  
+}
+.cadredash {
+  border: 0.5px solid rgb(100, 99, 99);
+  padding: 10px;
+}
+
+.sdl{
+  
+  color: rgb(99, 99, 98);
+  margin-bottom: 20px;
+}

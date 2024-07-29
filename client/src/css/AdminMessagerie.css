@@ -1,0 +1,66 @@
+.message-card {
+  background-color: #f0f0eb;
+  border: 0.2px solid rgb(202, 200, 200);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.p-i {
+  font-size: 34px;
+  color: #000000; /* Change the color of the icon */
+}
+
+.card-info {
+  flex: 1;
+}
+
+.card-info p {
+  margin: 5px 0;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 1px;
+}
+
+.message-label {
+  font-weight: bold;
+}
+
+/* New styles for notification icon */
+.unread-notification {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.mark-as-read{
+  background-color: #f5efef;
+  cursor: pointer;
+  padding: 2px;
+}

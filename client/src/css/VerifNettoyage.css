@@ -1,0 +1,398 @@
+
+.appc {
+    border-radius: 3px;
+    padding: 5px;
+    max-height: 100vh;
+    
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    background-color: #ffffff;
+
+}
+
+.work {
+    border-radius: 1px;
+    background-color: #ffffff;
+    max-height: 80vh !important;
+    margin-left: 10px;
+    width: 100%;
+    overflow: auto;
+    font-size: 0.8rem;
+    max-width: 2580px;
+    padding: 20px;
+    margin-left: 20px;
+    
+    
+    
+    
+}
+.cadre{
+  
+  border: 0.5px solid rgb(190, 190, 189);
+  padding: 20px;
+}
+
+.tableP {
+    width: 99%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 40px;
+    
+    
+}
+
+.codeabaare {
+  display: block;
+  margin: 20px auto; /* Centers the element horizontally */
+  font-size: 20px; /* Sets the font size */
+  width: 300px; /* Sets the width of the barcode */
+  margin-top: -10px;
+}
+
+table th,
+table td {
+    padding: 1px;
+    border: 2px solid rgb(157, 156, 142);
+    
+    
+}
+
+table th {
+    background-color:#eef0f4;
+    font-weight: bold;
+    text-align: center;
+    display: table-cell;
+    padding: 10px;
+}
+   
+
+
+
+table td input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 0.5px solid rgb(157, 156, 142);
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: table-column;
+    
+}
+
+/* Style for the Add Row button */
+.buttony {
+    padding: 10px 20px;
+    background-color: rgb(180, 179, 179);
+    color: rgb(11, 11, 39);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 2px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    border: 1px solid #343f3b;
+    width: 180px;
+    
+}
+
+.buttony:hover {
+    background-color:  rgb(140, 139, 139);
+    
+}
+
+.buttony:active {
+    background-color: #5d5d5d;
+}
+.buttony[disabled=disabled], .buttony:disabled {
+    background-color: #e4e2e2;
+    cursor: default;
+}
+
+/* CSS for the radio buttons */
+.radio-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.radio-container label {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.radio-container input[type="radio"] {
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+.form-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.form-field {
+    flex: 1;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.form-field input[type="text"] {
+    width: 91%;
+    padding: 10px;
+    border: 1px solid rgb(150, 150, 148);
+    border-radius: 1px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    
+    
+}
+.form-field7 {
+  flex: 1;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.form-field7 label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+.form-field7 input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(219, 217, 201);
+  border-radius: 1px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #ffffff;
+  
+  
+}
+.titre1{
+    
+    font-size: 1.6rem;
+    color: #ae433f;
+    margin-bottom: 40px;
+    
+    
+}
+.btnDeletee {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    color: #9c4949;
+    font-size: 28px;
+}
+
+.btnDeletee:hover {
+    color: #ec0b0b; 
+    background-color: transparent;
+    
+}
+.react-datepicker-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+.react-datepicker__input-container input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    outline: none;
+}
+.fichef{
+    margin: 10px auto;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid #301934;
+    border-radius: 5px;
+    background-color: #f4f0ec;
+    min-height: 650px;
+}
+
+.print-page{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.action-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .action-btn:hover {
+    background-color: #0056b3;
+  }
+  .action-btn2 {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-btn:hover {
+    background-color: #0056b3;
+  }
+  .action-btn2:hover {
+    background-color: #20ac25;
+  }
+
+  textarea {
+    background-color: #ffffff;
+    width: 98%; 
+    border-radius: 1px; 
+    resize: both; 
+    font-size: 20px; 
+    font-family: Arial, sans-serif;
+    border: 0.5px solid #000000;
+    height: 40px;
+   
+   
+  }
+  
+  /* Styles for textarea when focused */
+  textarea:focus {
+    border: 2px solid #000000; /* Change border color when focused */
+    outline: none; /* Remove outline */
+  }
+
+  .imprimer {
+    padding: 0.4rem 1rem;
+    border: 1px solid #7cb3ee;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #317ed1;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+  }
+  .imprimer:hover {
+    background-color: #68a6e9;
+    color: white;
+  }
+  .button-edit
+ {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+.button-edit:hover
+ {
+  background-color: #0056b3;
+}
+.button-cancel {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border: 1px solid #dc3545;
+    border-radius: 4px;
+    background-color: #bd5e67;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  .button-cancel:hover {
+    background-color: #c43442;
+  }
+
+
+.button-save {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border: 1px solid #035410;
+  border-radius: 4px;
+  background-color: #528823;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.button-save:hover {
+    background-color: #69bf4e;
+  }
+  .retour{
+    margin-left: 20px;
+  }
+
+  .form-field3 {
+    flex: 1;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.form-field3 label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.form-field3 input[type="text"] {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid rgb(157, 156, 142);
+    border-radius: 1px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    
+    
+}
+.data{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  
+}
+.inf{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
+  
+}

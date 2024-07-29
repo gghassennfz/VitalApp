@@ -1,0 +1,22 @@
+==gaston== test code a barres
+
+Quelque exemple de documents dans la bd :::::
+
+Doc Nettoyage :::
+a1d3e610-a589-4393-b185-52b4ebde4403
+f7f35304-8b01-4070-bc35-b1156d1cfe8b                 //req name == (emb)
+1fbd3126-fdbc-4b61-b792-10113c9baaa5
+cfa3d1d1-a69c-44e5-b4ad-d3ed71469971
+
+
+
+Doc Pese::::::
+6e56e125-2a32-40f3-a91e-9ee40c93473b
+0cc0a149-9930-441a-b0c9-8db7f1f5dbbc
+2d1ea9a9-c849-4b0f-aca5-313fea865f2a
+635fc6e9-ecf9-4b13-af03-34a8fb560ca6
+
+Doc Emballage:::
+
+635fc6e9-ecf9-4b13-af03-34a8fb5scqsc
+ect....

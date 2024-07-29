@@ -1,0 +1,16 @@
+.container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: none;
+    padding: 0px;
+    overflow: hidden; 
+  }
+  body {
+    margin: 0;
+    font-weight: 500;
+    font-family: 'Inter';font-size: 12px;
+  }
+    /*font-family: 'Chivo Mono', sans-serif;/*
+    /* font-family: "Trirong", serif;
+    /* font-family: "Noto Sans", sans-serif;
+  

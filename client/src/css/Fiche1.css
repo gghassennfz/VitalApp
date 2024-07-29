@@ -1,0 +1,118 @@
+/* Fiche1Card.css */
+
+/* Align all elements in the center */
+.fiche1-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fdfdfd;
+  border: 0.5px solid #2b3a39;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+  width: 230px;
+  box-shadow: 0 5px 10px rgba(157, 166, 184, 0.5);
+  transition: transform 0.2s ease-in-out;
+}
+.codeabaare{
+ width: 220px;
+}
+
+/* Increase spacing between each card on hover */
+.fiche1-card:hover {
+  transform: scale(1.02);
+}
+
+/* Details container */
+.fiche1-details {
+  padding: 10px;
+  min-height: 300px;
+  max-height:350px;
+  
+}
+
+/* Actions container */
+.fiche1-actions {
+  display: flex;
+  flex-direction: column; /* Align buttons vertically */
+  align-items: center; /* Center buttons horizontally */
+  gap: 10px; /* Add space between buttons */
+  padding: 10px;
+  max-height: 200px;
+}
+
+/* Edit and Delete buttons */
+.fiche1-actions button {
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Edit button */
+.fedit {
+  background-color: rgb(8, 65, 123);
+  color: #ffffff; /* Set text color to white */
+  width: 120px;
+}
+.fedit > a {
+  color: #ffffff; /* Set text color to white */
+}
+.fedit:hover {
+  background-color: #3a8cdd; /* Change background color on hover */
+}
+
+/* Delete button */
+.fdelete {
+  background-color: red;
+  width: 120px;
+}
+.fdelete:hover {
+  background-color: #ff6b6b; /* Change background color on hover */
+}
+
+.Displayfiche{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-color: #ffffff;
+  max-width:100%;
+  justify-content: center;
+  
+  padding: 10px;
+}
+/* Status button */
+.sta {
+  justify-content: center;
+  display: inline-block;
+  padding: 12px 7px;
+  text-align: center;
+  
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+  width: 150px;
+  margin-top: 5px;
+}
+
+/* Disabled status button */
+.sta.disabled {
+  cursor: not-allowed;
+}
+
+/* Hover effect on status button */
+.sta:hover:not(.disabled) {
+  background-color: #f0f0f0;
+}
+
+/* Status container */
+.statu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}

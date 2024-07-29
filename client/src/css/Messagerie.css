@@ -1,0 +1,104 @@
+/* Messagerie Container */
+.messagerie-container {
+    background-color: #ffffff;
+    border: 0.5px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(77, 77, 77, 0.1);
+    width: 450px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+  
+  /* Text for Messagerie */
+  .text-messagerie {
+    font-size: 16px;
+    color: #474647;
+    margin-bottom: 20px;
+    text-align: center; /* Center-align text */
+}
+
+  .titre-messagerie{
+    font-size: 20px;
+    color: #971695;
+    margin-bottom: 20px;
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Form Group */
+  .form-messagerie {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    width: 90%; /* Full width */
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Center-align text */
+}
+  
+  /* Label for Form */
+  .label-messagerie {
+    display: block;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  /* Input for Form */
+  .input-messagerie,
+  .textera-messagerie {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #989898;
+    max-height: 120px;
+  }
+  
+  /* Textarea for Form */
+  .textera-messagerie {
+    resize: vertical; /* Allow vertical resizing */
+    height: 70px;
+  }
+  .textera-messagerie:focus {
+    border: 2px solid black !important;
+}
+
+  
+  /* Error Alert */
+  .alert {
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #e44151;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Send Button */
+  /* Send Button */
+/* Send Button */
+.btn-send {
+    width: 200px;
+    padding: 12px;
+    border: none;
+    background-color: #81177f;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: center; /* Center horizontally */
+}
+
+/* Send Button Hover */
+.btn-send:hover {
+    background-color: #581157;
+}
+
+  

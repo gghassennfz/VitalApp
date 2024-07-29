@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background: #ffffff;
+    color: #fff;
+    padding-inline:45px ;
+    border-bottom: 2px solid #dbdbdb ;
+    border-left: 2px solid #dbdbdb;
+    border-radius:0 0 0 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+
+}
+.navbar-brand {
+    font-size: 32px;
+    color: #133d6e;
+    margin-left: 20px;
+  }
+  
+.navbar-link{
+    color: #27032a;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+    
+.navbar-link:hover{
+    
+    text-decoration: underline;
+}
+   
+.bars {
+ 
+    font-size: 24px;
+    margin-left: 1px;
+    color: #a9b3be;
+    cursor: pointer;
+  }
+  .bars:hover {
+    color: #72777E; 
+    
+}
+  
+.lefth2{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-bottom: 5px;
+
+}
+
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px; /* Adjust as needed */
+
+    
+}
+
+.logo {
+    width: 90px; /* Adjust the width as needed */
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* CSS styles for tablets and smaller screens */ 
+}
+ 
+.Profile-container {
+  position: relative;
+}
+
+.Profile-details {
+  position: absolute;
+  top: calc(100% + 5px); /* Adjust the distance from the icon */
+  left: -250px; /* Adjust the position to move it more to the left */
+  width: 300px; /* Set the width */
+  z-index: 999; /* Ensure the pop-up appears on top of other content */
+  background-color: #f6faff; /* Adjust background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow for a pop-up effect */
+  border-radius: 4px; /* Add border radius for a rounded look */
+  padding: 10px; /* Adjust padding as needed */
+  display: none; /* Initially hide the pop-up */
+  transition: opacity 0.5s ease; /* Add transition for smooth effect */
+  margin-top: -5px;
+}
+
+.Profile-container:hover .Profile-details,
+.Profile-details:hover {
+  display: block; /* Show the pop-up when either hovered over */
+  opacity: 1; /* Show the pop-up when hovered over */
+}
+
+.Profile-details:hover {
+  background-color: #d9dfe1;
+}
+
+.ProfileText {
+  font-size: 1rem;
+  color: #27032a;
+}
+
+.ProfileText:hover {
+  color: #007ba4;
+}
+
+.Profile {
+  color: #27032a;
+  font-size: 1.8rem;
+  transition: color 0.5s ease; /* Add transition for smooth effect */
+}
+
+.notification-icon {
+  position: relative; /* Position the badge relative to the icon */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.notification-icon svg {
+  font-size: 0.9rem; /* Adjust the icon size as needed */
+  color: #fff; /* Set the color of the icon */
+  background-color: rgb(101, 102, 103); /* Set the background color of the icon container */
+  border-radius: 50%; /* Make the container circular */
+  padding: 8px; /* Add some padding to the container */
+}
+
+.unread-count {
+  position: absolute; /* Position the badge absolutely */
+  top: -5px; /* Adjust the top position */
+  right: -8px; /* Adjust the right position */
+  background-color: #d40000; /* Set the background color of the badge */
+  color: rgb(255, 255, 255); /* Set the text color of the badge */
+  font-size: 1rem; /* Adjust the font size of the badge */
+  font-weight: bold; /* Make the text bold */
+  border-radius: 50%; /* Make the badge circular */
+  width: 20px; /* Set the width of the badge */
+  height: 20px; /* Set the height of the badge */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(0, 0, 0); /* Add a border to the badge */
+}

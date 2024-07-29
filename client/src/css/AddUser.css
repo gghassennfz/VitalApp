@@ -1,0 +1,146 @@
+.employe-form .btn-addst {
+    background-color: #0e5910;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 8px 0px;
+    transition: background-color 0.1s ease; /* Ajout d'une transition */
+    margin-top: 40px;
+}
+
+.employe-form .btn-addst:hover {
+    background-color: #45a049; /* Nouvelle couleur au survol */
+}
+
+
+.employe-form .form-group select {
+    width: 100%;
+    padding: 8px;
+    block-size: border-box;
+    margin-top: 5px;
+    border: 1px solid rgb(142, 141, 140);
+    
+}
+.employe-form .form-group input{
+    width: 95%;
+    padding: 8px;
+    block-size: border-box;
+    margin-top: 5px;
+    border: 1px solid rgb(142, 141, 140);
+}
+.employe-form .form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.employe-form .form-group{
+    margin-bottom: 15px;
+}
+.employe-form h2{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000;
+}
+.employe-form{
+    background-color: rgba(255, 255, 255, 0.896);
+    border: 1px solid rgba(166, 166, 166, 0.896);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    
+}
+.employe-form-container{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+.title{
+    color: rgb(11, 34, 167);
+}
+
+
+.display-user {
+    padding: 20px;
+    background: #4caf50;
+    height: 120px;
+}
+
+.top-icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    
+}
+
+.icon7 {
+    margin-right: 5px;
+font-size: x-large;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content {
+    width: 45%;
+}
+
+.right-content {
+    width: 45%;
+}
+.edituser,
+.deleteuser {
+  display: inline-block;
+  width: 80px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
+  border: 1px solid #e1dede; /* Black border with 1px thickness */
+  border-radius: 4px; /* Rounded corners */
+  text-align: center; /* Center the text horizontally */
+  line-height: 30px; /* Center the text vertically */
+  cursor: pointer; /* Show pointer cursor on hover */
+  margin: 0 auto; /* Center horizontally */
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 40px;
+}
+
+.edituser {
+    width: 100px;
+  background-color: green;
+  color: white;
+}
+
+.deleteuser {
+    width: 100px;
+  background-color: red;
+  color: white;
+}
+
+.edituser:hover,
+.deleteuser:hover {
+  opacity: 0.6; /* Reduce opacity on hover */
+}

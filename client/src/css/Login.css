@@ -1,0 +1,114 @@
+/* Login Page */
+.login-page {
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    overflow: hidden; /* Hide scroll bars */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F5F9; /* Light gray background */
+}
+
+.containerforlogo {
+    background-color: #ffffff; /* Blue background */
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center horizontally */
+    width: 430px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0.1, 0.3);
+    border: 0.5px solid gray;
+}
+
+/* Logo */
+.Logologin {
+    margin-top: 10px;
+    width: 200px; /* Adjust as needed */
+    height: 220px; /* Adjust as needed */
+}
+
+/* Login Container */
+.login-container {
+    background-color: #ffffff; /* White background */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(77, 77, 77, 0.1); /* Add shadow */
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center;
+    width: 380px;
+    
+}
+
+/* Form */
+.form-groupl {
+    width: 100%; /* Make the form group take full width */
+    margin-bottom: 20px;
+    align-items: center; /* Center horizontally */
+    justify-content: center;
+}
+
+/* Form Labels */
+.form-groupl label {
+    margin-bottom: 10px;
+    text-align: center; /* Align label text to the left */
+    font-size: 18px;
+}
+
+.form-groupl input,
+.form-groupl select {
+    width: calc(100% - 1px); /* Adjust as needed */
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #989898;
+    box-sizing: border-box; /* Include padding and border in the width */
+    margin-top: 10px;
+}
+
+/* Error Message */
+.alert {
+    background-color: #ffffff; /* Red background */
+    color: rgb(230, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Login Button */
+.btn-login {
+    width: 99%;
+    padding: 12px;
+    border: none;
+    background-color:#81177f; /* Blue button */
+    border: 1px solid #ecead3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+     align-self: center; /* Center horizontally */
+     margin-top: 30px;
+}
+
+/* Login Button Hover */
+.btn-login:hover {
+    background-color: #581157; /* Dark blue button on hover */
+}
+.seconnecter{
+    font-size: 24px;
+    color: #81177f;
+    margin-bottom: 20px;
+}
+/* Add styles for forgot password link */
+.forgot-password-link {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #686665; /* Your desired color */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Ensure it takes up full width */
+    text-align: center; /* Center align the link */
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
